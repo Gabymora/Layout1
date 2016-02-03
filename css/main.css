@@ -1,0 +1,72 @@
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#navigation {
+	display: inline;
+}
+
+li {
+	display: inline;
+	margin: 30px;
+}
+img {
+	width: 100%;
+}
+ /*--PROPIEDADES DE LA LINEA DE SEPARACION--*/
+hr{
+	width: 800px;
+	height: 0px;
+	border: 1px black solid;
+	
+}
+
+.peque{ 
+	border-bottom: 1px solid black;
+	width: 5%; 
+
+}
+.peque2 {
+	border-bottom: 1px solid black;
+	width: 20%; 
+	margin: 0px;
+}
+
+ /*-- PROPIEDADES DE FUENTE--*/
+.prop {
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* Propiedades de imagenes coders*/
+.centrado {
+	position: static;
+	margin: 5%;
+	display: inline;
+}
+
+.imgs{
+	width: 30%;
+	height: 30%;
+	opacity: 0.7;
+}
+
+.posle {
+	position: absolute;
+	left: 35%;
+	top: 120%;
+}
+
+.caption::before{
+	content: attr(title);
+	position: absolute;
+	color: black;
+	font-size: 16px;
+	left: 35%;
+	top: 120%;
+	right:0;
+	bottom: 0;
+	z-index: 1;

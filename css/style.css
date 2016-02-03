@@ -1,0 +1,10 @@
+.estilo {
+	width: 50%;
+	height: 200%;	;
+	border-style: double; border-width: 1px;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
