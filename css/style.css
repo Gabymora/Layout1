@@ -1,10 +1,108 @@
-.estilo {
-	width: 50%;
-	height: 200%;	;
-	border-style: double; border-width: 1px;
+div {
+	width: 100%;
+	height: 100%;	;
+	border: 1px black solid;
 }
-
-.container {
+.container {		/*---Es el contenedor de toda la informacion, la caja principal--*/
 	width: 800px;
 	margin: 0 auto;
+}
+
+.img1 {				/*--Las propiedades de la imagen circular--*/
+	border-radius: 200px 200px 200px 200px;
+	margin-left: 35%;
+	margin-top: 2%;
+}
+h1 {			/*--Encabezado centrado--*/
+	text-align: center;
+}
+
+.center {		/*--El div que centra el texto Lorem..--*/
+	margin: auto;
+	width: 70%;
+	height: 50%;
+	border: none;
+}
+p {				/*--Propiedades del texto Lorem..--*/
+	text-align: center;
+	font-size: 12px;
+}
+
+/*------------------Propiedades de los cuadros HTML CSS JAVA..-----------*/
+.c1{
+	width: 60%;
+	height: 5%;
+	border: none;
+	background: gray;
+	margin-bottom: 2%;
+	margin-left: 5%;
+	padding-top: .1%;
+	padding-left: 2%
+
+}
+
+.c2{
+	width: 40%;
+	height: 5%;
+	border: none;
+	background: gray;
+	margin-bottom: 2%;
+	margin-left: 5%;
+	padding-top: .1%;
+	padding-left: 2%
+}
+
+.c3{
+	width: 20%;
+	height: 5%;
+	border: none;
+	background: gray;
+	margin-bottom: 2%;
+	margin-left: 5%;
+	padding-top: .1%;
+	padding-left: 2%
+
+}
+
+#p1{			/*-----Acomodo de texto dentro de los cuadros-------*/
+	text-align: left;
+	font-size: 15px;
+	font-family: arial;
+	color: white;
+}
+
+h2 {
+	margin-left: 3%;
+}
+
+/*..................IMAGENES JUNTAS.........................*/
+
+.div1 {
+width: 80%;
+height: 80%;
+border: none;
+}
+.centro { 		/*para centrar el div principal*/
+position: static;
+margin: auto;
+border: none;
+}
+
+.dos { 		/*es para contener las tres fotos*/
+width: 100%;
+height: 50%;
+display: block;
+margin: auto;
+border: none;
+}
+.img2 {		/*propiedades del div que contiene cada una de las fotos*/
+width: 25%;
+height: 35%;
+margin: 3%;
+display: inline-block;
+border:none;
+}
+.img3 {		/*propiedades generales de las imagenes*/
+width: 100%;
+height: 100%;
 }
